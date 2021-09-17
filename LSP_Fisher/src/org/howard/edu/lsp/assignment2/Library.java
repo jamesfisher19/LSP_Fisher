@@ -6,7 +6,7 @@ import java.util.*;
  * Creates a Library for books from Book class. 
  * In this library, user can add a book, print library hours, 
  * print library addresses, borrow a book, return a book,
- * and print a book's availability.<p> 
+ * and print book's availability.<p> 
  * 
  * @author James Fisher @/02939673
  * @since 2021-09-16
