@@ -15,11 +15,11 @@ public class Book {
 		this.title = bookTitle;
 	 } 
 	/**
-	 * Marks the book as rented 
+	 * Marks the book as rented  
 	 */
 	public void borrowed() { borrowed = true; } 
 	/**
-	 * Marks the book as not rented 
+	 * Marks the book as not rented
 	 */
 	public void returned() { borrowed = false; } 
 	/**
@@ -41,7 +41,7 @@ public class Book {
 		return this.title;
 	}
 	/**
-	 * Tests possible book titles
+	 * Tests the possible book titles
 	 * @param args
 	 */
 	public static void main(String[] args) {
