@@ -337,4 +337,14 @@ class IntegerSetTest {
 		intSet6.diff(intSet7);
 		assertEquals(intSet6.toString(), "100 200 300 ");
 	}
+	
+	/**
+	 * JUnit tests for clear()
+	 */
+	@Test
+	@DisplayName("Test to clear intSet6")
+	public void testClear() {
+		intSet6.clear();
+		assertEquals(0, intSet6.length());
+	}
 }
